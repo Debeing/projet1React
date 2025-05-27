@@ -1,7 +1,10 @@
 import Banner from './banner'; 
+ 
 
 function App() {
-  return <Banner/>
+  return <div>
+    <Banner/>
+    </div>
 }
 
 export default App;
