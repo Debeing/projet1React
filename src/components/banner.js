@@ -1,14 +1,14 @@
+import '../style/banner.css';
+import logo from '../assets/logo.png';
 function Banner() {
-    return (<div className="banner">
-                <h1>La maison jungle</h1>
-                <h2>Panier</h2>
-                <ul>
-                    <li>monstera: 8£</li>
-                    <li>Fleurs: 10£</li>
-                    <li>Accessoires: 15£</li>
-                </ul>
-                <p>Total: 33£</p>
-             </div>
-             );
+    const title = "La maison jungle";
+    return (
+  <div className="lmj-banner">
+    <img src={logo} alt="La maison jungle logo" className="lmj-logo" />
+    <h1> {title} </h1>
+</div>
+      
+    )
 }
- export default Banner;
+
+export default Banner
