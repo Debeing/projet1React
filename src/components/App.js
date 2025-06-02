@@ -5,7 +5,7 @@ import Banner from './banner';
 function App() {
   return <div>
     <Banner/>
-    <Cart/>
+    {/* <Cart/> */}
     <ShoppingList/>
     </div>
 }
