@@ -1,6 +1,6 @@
 export const plantList = [
     {
-        name : 'Montera',
+        name : 'Monstera',
         category : 'classique',
         id : '1ed',
     },
